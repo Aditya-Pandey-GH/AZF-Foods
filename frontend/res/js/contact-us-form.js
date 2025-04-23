@@ -11,7 +11,7 @@ document.getElementById("contactForm").addEventListener("submit", async (e) => {
 		notes: document.getElementById("notes").value,
 	};
 	try {
-		const response = await fetch("https://azf-foods.vercel.app/submit-form", {
+		const response = await fetch("https://azffoods-bkend.vercel.app/submit-form", {
 			// const response = await fetch("http://127.0.0.1:8000/submit-form", {
 			method: "POST",
 			headers: {
